@@ -88,6 +88,7 @@ section.title div.title__div {
 }
 
 section.title div.title__div img.title__profile {
+    width: 22rem;
     border: 8px solid #dfdfdf;
     border-radius: 50%;
 }
@@ -395,7 +396,7 @@ section.contact {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-block: 7rem;
+    padding-block: 8.4rem;
     background-color: #e3eeff;
 }
 
@@ -405,6 +406,19 @@ section.contact div.contact__box {
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
+}
+
+div.contact--esquerda {
+    background: #00295f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contact--esquerda img {
+    width: 18rem;
+    margin: 5rem;
+    opacity: .6;
 }
 
 div.contact__text h2 {
@@ -461,8 +475,29 @@ div.contact__text button.contact__button {
     width: 100%;
     font-size: 1.1rem;
     color: #fff;
-    background: #2A7AE4;
+    background: #3971b1;
 }
+
+/*Link to Menu*/
+
+#link__to_top {
+    position: fixed;
+    background: #9b9b9b;
+    box-shadow: 2px 2px 4px 1px rgba(133, 133, 133, 0.607);
+    width: 3rem;
+    height: 3rem;
+    bottom: 3rem;
+    right: 3rem;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link__to_top img {
+    width: 2.5rem;
+}
+
 
 /*footeer*/
 
@@ -473,7 +508,7 @@ section.footer {
     font-size: 1.1rem;
     font-weight: 500;
     color: #fff;
-    background-color: #343434;
+    background-color: #171717;
 }
 
 section.footer p {
